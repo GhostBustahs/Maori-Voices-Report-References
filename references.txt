@@ -1,0 +1,57 @@
+LOST IN TRANSLATION — Evidence & References
+Lui Joseph Hellesoe · KiwiData (Māori Data Sovereignty & Indigenous AI)
+Te Poutoko Ora a Kiwa Research Symposium · 24 June 2026
+
+STATUS: Preliminary manuscript, under review. The CSA framework and 20-term
+dataset are offered as a reproducible baseline; findings are early and
+community validation is the next step.
+
+KEY LINKS
+- Manuscript (PDF):        REPLACE_WITH_MANUSCRIPT_LINK
+- Code & dataset (GitHub): REPLACE_WITH_GITHUB_LINK
+- About KiwiData / contact: REPLACE_WITH_CONTACT_LINK
+- Contact: lui.hellesoe@auckland.ac.nz
+
+HOW THE NUMBERS WERE MADE
+Two multilingual sentence-embedding models were evaluated:
+  - distiluse-base-multilingual-cased-v2  (referred to as mBERT)
+  - paraphrase-multilingual-mpnet-base-v2 (referred to as XLM-R)
+For each of 20 te reo Māori terms, the top-10 nearest neighbours were scored
+against a literature-grounded Culturally Appropriate Neighbour (CAN) set,
+within a controlled 187-term candidate pool.
+Results: overall Cultural Semantic Alignment 9.0% and 10.5% vs a 5.7% random
+baseline; 18 of 20 highest-similarity retrievals scored CSA = 0.
+
+REFERENCES
+[1] Fox, L.A. (2025). Ara Wairua: developing and utilising a Māori cultural
+    analysis tool for research. Qualitative Social Work 24(2-3), 226-241.
+[2] Joshi, P. et al. (2020). The state and fate of linguistic diversity and
+    inclusion in the NLP world. Proceedings of ACL, 6282-6293.
+[3] Trye, D. et al. (2022). Harnessing indigenous tweets: the Reo Māori
+    Twitter corpus. Language Resources and Evaluation 56, 1229-1268.
+[4] James, J. et al. (2022). Language models for code-switch detection of te
+    reo Māori and English in a low-resource setting. Findings of NAACL, 650-660.
+[5] Bolukbasi, T. et al. (2016). Man is to computer programmer as woman is to
+    homemaker? Debiasing word embeddings. NIPS 29.
+[6] Caliskan, A. et al. (2017). Semantics derived automatically from language
+    corpora contain human-like biases. Science 356(6334), 183-186.
+[7] Arora, S. et al. (2023). Probing pre-trained language models for
+    cross-cultural differences in values. C3NLP Workshop, ACL.
+[8] Manatū Taonga (2025). Long-term Insights Briefing: Culture in the Digital Age.
+[9] Myers-Scotton, C. (1993). Duelling Languages: Grammatical Structure in
+    Codeswitching. Oxford University Press.
+[10] Çetinoğlu, Ö. et al. (2016). Challenges of computational processing of
+    code-switching. arXiv:1610.02213.
+[11] Smith, L.T. (1999/2021). Decolonizing Methodologies: Research and
+    Indigenous Peoples. Zed Books.
+[12] Wilson, S. (2001). What is indigenous research methodology? Canadian
+    Journal of Native Education 25(2), 175-179.
+[13] Reimers, N. & Gurevych, I. (2019). Sentence-BERT. EMNLP-IJCNLP, 3982-3992.
+[14] Kukutai, T. & Taylor, J. (eds.) (2016). Indigenous Data Sovereignty:
+    Toward an Agenda. ANU Press.
+
+ADDITIONAL SOURCES (te reo health-AI landscape)
+- Te Hiku Media / Papa Reo: te reo Māori ASR (92% accuracy) under the
+  Kaitiakitanga Licence. https://papareo.nz
+- Te Mana Raraunga: Māori Data Sovereignty Network principles.
+- CARE Principles for Indigenous Data Governance (Carroll et al., 2020).

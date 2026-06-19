@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lost in Translation — Lui Joseph Hellesoe · KiwiData</title>
+<style>
+  :root{
+    --paper:#F4EEE2; --ink:#1B1813; --soft:#5C564A; --faint:#8A8070;
+    --ochre:#9C3D2A; --green:#1E4B43; --sand:#E7DDC9; --rule:#D8CDB6;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0; background:var(--paper); color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    line-height:1.5; -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:680px; margin:0 auto; padding:32px 22px 80px}
+  .kicker{font-family:ui-monospace,SFMono-Regular,Menlo,monospace; font-size:12px;
+    letter-spacing:.18em; text-transform:uppercase; color:var(--ochre); font-weight:700}
+  h1{font-size:30px; line-height:1.15; margin:.4em 0 .1em; letter-spacing:-.01em}
+  h1 .lo{color:var(--ochre)}
+  .byline{color:var(--soft); font-size:15px; margin-bottom:4px}
+  .meta{color:var(--faint); font-size:13px; font-family:ui-monospace,Menlo,monospace}
+  .lead{font-size:17px; color:var(--ink); margin:22px 0 8px}
+  .rule{height:2px; background:var(--ink); border:0; margin:26px 0}
+  .status{background:var(--sand); border-radius:12px; padding:14px 16px; font-size:14px; color:var(--soft); margin:18px 0}
+  .status b{color:var(--ink)}
+  h2{font-size:13px; font-family:ui-monospace,Menlo,monospace; letter-spacing:.14em;
+    text-transform:uppercase; color:var(--ochre); margin:34px 0 4px}
+  .links{list-style:none; padding:0; margin:10px 0 0}
+  .links li{margin:0 0 12px}
+  a.card{
+    display:block; text-decoration:none; color:var(--ink);
+    border:2px solid var(--rule); border-radius:12px; padding:14px 16px;
+    transition:border-color .15s, transform .05s;
+  }
+  a.card:hover{border-color:var(--ochre)}
+  a.card:active{transform:scale(.995)}
+  a.card .t{font-weight:700; font-size:16px; display:flex; justify-content:space-between; align-items:center}
+  a.card .t .arrow{color:var(--ochre); font-weight:700}
+  a.card .d{color:var(--soft); font-size:14px; margin-top:3px}
+  a.card.dark{background:var(--green); border-color:var(--green); color:var(--paper)}
+  a.card.dark .d{color:#CFE0D6}
+  a.card.dark .t .arrow{color:#D9A23B}
+  .pending{opacity:.55}
+  .pending .t .arrow{visibility:hidden}
+  .refs{font-size:13.5px; color:var(--soft)}
+  .refs ol{padding-left:20px; margin:8px 0}
+  .refs li{margin:0 0 7px}
+  .refs a{color:var(--ochre)}
+  footer{margin-top:40px; padding-top:18px; border-top:1px solid var(--rule);
+    font-size:12.5px; color:var(--faint); font-family:ui-monospace,Menlo,monospace}
+  .tag{display:inline-block; font-family:ui-monospace,Menlo,monospace; font-size:11px;
+    letter-spacing:.1em; text-transform:uppercase; color:var(--faint);
+    border:1px solid var(--rule); border-radius:999px; padding:2px 9px; margin-left:8px; vertical-align:middle}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="kicker">Te Poutoko Ora a Kiwa Research Symposium · 24 June 2026</div>
+  <h1>What happens to Māori voice between the interview room and the <span class="lo">final report</span></h1>
+  <div class="byline">Lui Joseph Hellesoe · KiwiData — Māori Data Sovereignty &amp; Indigenous AI</div>
+  <div class="meta">Poster evidence &amp; sources · scan from the poster</div>
+
+  <p class="lead">This page holds the evidence behind the poster: the manuscript, the code and dataset, and the full reference list. Everything is here so you can check the claims yourself.</p>
+
+  <div class="status">
+    <b>Status:</b> The study below is a <b>preliminary manuscript, under review</b>. The Cultural Semantic Alignment (CSA) framework and the 20-term dataset are offered as a reproducible baseline. Findings are early and community validation is the next step.
+  </div>
+
+  <hr class="rule">
+
+  <h2>The evidence</h2>
+  <ul class="links">
+
+    <li><a class="card" href="REPLACE_WITH_MANUSCRIPT_LINK">
+      <div class="t"><span>Read the manuscript<span class="tag">PDF</span></span><span class="arrow">→</span></div>
+      <div class="d">“Lost in Translation: Evaluating Cultural Meaning Preservation in Te Reo Māori / English Embeddings.”</div>
+    </a></li>
+
+    <li><a class="card dark" href="REPLACE_WITH_GITHUB_LINK">
+      <div class="t"><span>Code &amp; dataset on GitHub<span class="tag">repo</span></span><span class="arrow">→</span></div>
+      <div class="d">The CSA scoring framework, the 20-term Cultural Semantic Evaluation dataset, the 187-term candidate pool, and the experiment that produced every number on the poster.</div>
+    </a></li>
+
+    <li><a class="card" href="REPLACE_WITH_REFERENCES_TXT_LINK">
+      <div class="t"><span>Full reference list<span class="tag">.txt</span></span><span class="arrow">→</span></div>
+      <div class="d">Every source cited on the poster, with links, in plain text.</div>
+    </a></li>
+
+    <li><a class="card" href="REPLACE_WITH_KIWIDATA_OR_CONTACT_LINK">
+      <div class="t"><span>About KiwiData / get in touch<span class="tag">link</span></span><span class="arrow">→</span></div>
+      <div class="d">If you’ve watched meaning go missing in your own research, I’d like to kōrero.</div>
+    </a></li>
+
+  </ul>
+
+  <h2>How the numbers were made</h2>
+  <p class="refs">
+    Two multilingual sentence-embedding models (<code>distiluse-base-multilingual-cased-v2</code> and
+    <code>paraphrase-multilingual-mpnet-base-v2</code>) were evaluated against a 20-term te reo Māori
+    benchmark. For each term, the top-10 nearest neighbours were scored against a literature-grounded
+    Culturally Appropriate Neighbour set. Overall Cultural Semantic Alignment: 9.0% and 10.5% against a
+    5.7% random baseline; 18 of 20 highest-similarity retrievals scored zero. Full method and the random-baseline
+    derivation are in the manuscript and the repo above.
+  </p>
+
+  <h2>References</h2>
+  <div class="refs">
+    <ol>
+      <li>Fox, L.A. (2025). Ara Wairua: a Māori cultural analysis tool for research. <em>Qualitative Social Work</em>.</li>
+      <li>James, J. et al. (2022). Language models for code-switch detection of te reo Māori and English. <em>Findings of NAACL</em>.</li>
+      <li>Smith, L.T. (2021). <em>Decolonizing Methodologies</em> (3rd ed.).</li>
+      <li>Te Hiku Media / Papa Reo — te reo Māori ASR and the Kaitiakitanga Licence. <a href="https://papareo.nz">papareo.nz</a></li>
+      <li>Te Mana Raraunga — Māori Data Sovereignty Network principles.</li>
+      <li>Kukutai, T. &amp; Taylor, J. (2016). <em>Indigenous Data Sovereignty: Toward an Agenda</em>.</li>
+      <li>Carroll, S.R. et al. (2020). CARE Principles for Indigenous Data Governance. <em>Data Science Journal</em>.</li>
+      <li>Manatū Taonga (2025). Long-term Insights Briefing: Culture in the Digital Age.</li>
+    </ol>
+    <p>The poster’s numbered citations [1]–[6] map to this list. The complete bibliography is in the manuscript.</p>
+  </div>
+
+  <footer>
+    Lui Joseph Hellesoe · KiwiData · lui.hellesoe@auckland.ac.nz<br>
+    Page for Te Poutoko Ora a Kiwa Research Symposium, 24 June 2026.
+  </footer>
+
+</div>
+</body>
+</html>
